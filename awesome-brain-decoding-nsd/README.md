@@ -15,7 +15,9 @@
 ---
 
 ## 📚 목차
-
+- [✅ Reading Checklist](#-reading-checklist)
+- [🆕 Recent Core Papers: 2025–2026](#-recent-core-papers-20252026)
+- [📌 Additional Candidates](#-additional-candidates)
 - [🧠 데이터셋 및 벤치마크](#-데이터셋-및-벤치마크)
 - [📖 서베이 논문](#-서베이-논문)
 - [🖼️ fMRI 기반 이미지 재구성](#️-fmri-기반-이미지-재구성)
@@ -31,6 +33,130 @@
 - [🏛️ 고전 연구](#️-고전-연구)
 - [💻 코드 저장소](#-코드-저장소)
 - [📌 TODO](#-todo)
+
+---
+
+## ✅ Reading Checklist
+
+이 섹션은 논문을 읽었는지 관리하기 위한 체크리스트이다.  
+논문을 읽은 뒤 `[ ]`를 `[x]`로 바꾸면 된다.
+
+### Priority 0: 먼저 읽을 논문
+
+- [ ] **Natural Scenes Dataset (NSD)**
+- [ ] **MindEye**
+- [ ] **High-Resolution Image Reconstruction with Latent Diffusion Models from Human Brain Activity**
+- [ ] **Brain-Diffuser**
+- [ ] **MindEye2**
+- [ ] **MindBridge**
+- [ ] **Brain Captioning**
+- [ ] **UMBRAE**
+- [ ] **PRISM / Seeing Through the Brain**
+- [ ] **Multigranular Evaluation for Brain Visual Decoding / BASIC**
+
+### Recent 2026 Papers
+
+- [ ] **Brain-IT: Image Reconstruction from fMRI via Brain-Interaction Transformer**
+- [ ] **PRISM / Seeing Through the Brain: Image Reconstruction of Visual Perception from Human Brain Signals**
+- [ ] **SynMind: Reducing Semantic Hallucination in fMRI-to-Image Reconstruction**
+- [ ] **PictorialCortex: Zero-Shot Cross-Subject fMRI-to-Image via Compositional Latent Modeling**
+- [ ] **Duala: Dual-Level Alignment for Cross-Subject fMRI Decoding**
+- [ ] **Seeing the Imagined: Latent Functional Alignment for Visual Imagery Decoding**
+
+### Recent 2025 Papers
+
+- [ ] **NSD-Imagery: A Benchmark Dataset for Extending Image Reconstruction Models to Mental Imagery**
+- [ ] **ZEBRA: In-Context and Generative Pretraining for Zero-Shot Cross-Subject Neural Decoding**
+- [ ] **BrainX: Learning to See Again — Universal Brain Decoding with Neuro-Geometric Representation Learning**
+- [ ] **BrainMCLIP: Visual Decoding via Multi-layer Feature Guided CLIP**
+- [ ] **DynaDiff: Single-stage Decoding of Images from Continuously Evolving fMRI**
+- [ ] **FreqSelect: Frequency-Aware fMRI-to-Image Reconstruction**
+- [ ] **FgB2I: Fine-grained Text Bridging for fMRI-to-Image Reconstruction**
+- [ ] **MindTuner: Cross-Subject Visual Decoding with Visual Fingerprint and Semantic Correction**
+- [ ] **Multigranular Evaluation for Brain Visual Decoding**
+- [ ] **Exploring the Visual Feature Space for Multimodal Neural Decoding**
+- [ ] **BrainROI: Unified Multimodal Brain Decoding via Cross-Subject Soft-ROI Fusion**
+- [ ] **BrainExplore: Discovering Interpretable Visual Representations with fMRI**
+
+### Additional Candidates
+
+- [ ] **A 7T fMRI Dataset of Synthetic Images for Out-of-Distribution Modeling of Vision**
+- [ ] **VoxelFormer: Reconstructing Stimuli from fMRI with Masked Autoencoder and Diffusion Model**
+- [ ] **NeuroSwift: Enhancing fMRI-to-Image Reconstruction with Straight-Through Diffusion**
+- [ ] **HI-DREAM: High-Resolution Image Reconstruction with Detailed Brain Visual Decoding**
+- [ ] **MoRE-Brain: Multi-object Region Enhanced Brain Visual Decoding**
+- [ ] **TROI: Text-Guided Reconstruction of Visual Stimuli from Human Brain Activity**
+- [ ] **LaVCa: Linear Visual Concept Modeling of fMRI Responses**
+- [ ] **SEED: Toward Efficient Image Reconstruction from fMRI via Structure-enhanced Denoising Diffusion**
+- [ ] **MindLLM: A Subject-Agnostic and Training-Free Framework for fMRI-to-Text Decoding**
+- [ ] **BrainChat: Decoding fMRI Brain Activity into Images and Text using Multimodal Transformers**
+- [ ] **BRAINGUARD: Distilling Integrated Features for Robust Brain Decoding**
+- [ ] **BOLDreams: Generative fMRI-to-Image Synthesis through Activation Guidance**
+- [ ] **Scaling Laws for Neural Representation in fMRI Image Reconstruction**
+- [ ] **SynBrain: Artificial Visual Cortex Enables Image Reconstruction from Brain Activity**
+- [ ] **Rest2Visual: Reconstruction of Natural Visual Perception from Resting-State fMRI**
+
+---
+
+---
+
+## 🆕 Recent Core Papers: 2025–2026
+
+최근 NSD 기반 Visual Brain Decoding 연구는 단순한 subject-specific image reconstruction을 넘어, cross-subject 일반화, structured text space, semantic hallucination 완화, mental imagery decoding, dynamic fMRI decoding으로 확장되고 있다.
+
+### 2026
+
+| 연도 | 논문 | 키워드 | 추천 위치 | 설명 |
+|---|---|---|---|---|
+| 2026 | **Brain-IT: Image Reconstruction from fMRI via Brain-Interaction Transformer** | multi-subject, brain interaction transformer, image reconstruction, 1-hour adaptation | Cross-Subject / Multi-Brain Decoding | 여러 피험자의 fMRI를 함께 활용하는 Brain Interaction Transformer를 제안하고, 적은 fMRI 데이터로도 새로운 피험자에 적응하는 방향의 연구 |
+| 2026 | **PRISM / Seeing Through the Brain: Image Reconstruction of Visual Perception from Human Brain Signals** | fMRI-to-image, structured text space, object-centric diffusion, semantic decoding | VLM/LLM-assisted Decoding | fMRI를 순수 vision feature가 아닌 structured text 또는 multimodal language space와 연결하는 연구 |
+| 2026 | **SynMind: Reducing Semantic Hallucination in fMRI-to-Image Reconstruction** | semantic hallucination, sentence-level semantic description, diffusion | Semantic Alignment / Hallucination Reduction | diffusion 기반 brain reconstruction에서 발생하는 의미적 환각 문제를 완화하기 위한 연구 |
+| 2026 | **PictorialCortex: Zero-Shot Cross-Subject fMRI-to-Image via Compositional Latent Modeling** | zero-shot, cross-subject, compositional latent | Zero-Shot / Cross-Subject Decoding | 피험자별 fine-tuning 없이 cross-subject fMRI-to-image decoding을 목표로 하는 연구 |
+| 2026 | **Duala: Dual-Level Alignment for Cross-Subject fMRI Decoding** | cross-subject, stimulus alignment, subject alignment, retrieval | Cross-Subject Decoding | stimulus-level alignment와 subject-level alignment를 동시에 고려해 cross-subject decoding을 개선 |
+| 2026 | **Seeing the Imagined: Latent Functional Alignment for Visual Imagery Decoding** | mental imagery, NSD-Imagery, latent alignment | Mental Imagery Decoding | 실제로 본 이미지뿐 아니라 머릿속으로 상상한 이미지에 대한 fMRI decoding 연구 |
+
+### 2025
+
+| 연도 | 논문 | 키워드 | 추천 위치 | 설명 |
+|---|---|---|---|---|
+| 2025 | **NSD-Imagery: A Benchmark Dataset for Extending Image Reconstruction Models to Mental Imagery** | NSD extension, mental imagery, benchmark | Datasets / Benchmarks | 기존 NSD의 perceived image decoding을 mental imagery decoding으로 확장하기 위한 벤치마크 |
+| 2025 | **ZEBRA: In-Context and Generative Pretraining for Zero-Shot Cross-Subject Neural Decoding** | zero-shot, cross-subject, generative pretraining | Zero-Shot / Cross-Subject Decoding | 피험자별 적응 없이 새로운 피험자에게 일반화하는 zero-shot cross-subject brain decoding |
+| 2025 | **BrainX: Learning to See Again — Universal Brain Decoding with Neuro-Geometric Representation Learning** | universal brain decoding, feature disentanglement, neuro-geometric learning | Universal Brain Decoding | 피험자 간 차이를 줄이고 공통적인 brain representation을 학습하는 universal decoding 계열 연구 |
+| 2025 | **BrainMCLIP: Visual Decoding via Multi-layer Feature Guided CLIP** | CLIP, multi-layer alignment, parameter-efficient | CLIP-based Decoding | 저수준·고수준 시각 영역을 CLIP의 서로 다른 layer feature와 정렬하려는 연구 |
+| 2025 | **DynaDiff: Single-stage Decoding of Images from Continuously Evolving fMRI** | time-resolved fMRI, single-stage diffusion, dynamic decoding | Time-Resolved / Dynamic Decoding | 정적인 평균 fMRI 표현이 아니라 시간에 따라 변화하는 fMRI 신호를 이미지 재구성에 활용 |
+| 2025 | **FreqSelect: Frequency-Aware fMRI-to-Image Reconstruction** | frequency filtering, adaptive frequency selection, interpretability | Signal Processing / Frequency-Aware Decoding | fMRI 신호의 주파수 특성을 decoding에 반영 |
+| 2025 | **FgB2I: Fine-grained Text Bridging for fMRI-to-Image Reconstruction** | fine-grained text, VLM caption, semantic bridge | Text-Bridge / VLM-assisted Decoding | fMRI와 이미지 사이에 세밀한 텍스트 표현을 bridge로 활용 |
+| 2025 | **MindTuner: Cross-Subject Visual Decoding with Visual Fingerprint and Semantic Correction** | cross-subject, visual fingerprint, semantic correction | Cross-Subject Decoding | 새로운 피험자에 대해 제한된 fMRI 데이터만으로 decoding을 수행 |
+| 2025 | **Multigranular Evaluation for Brain Visual Decoding** | evaluation, BASIC benchmark, structural, semantic, contextual | Evaluation / Benchmarking | brain visual decoding 결과를 구조적·의미적·문맥적 수준에서 평가 |
+| 2025 | **Exploring the Visual Feature Space for Multimodal Neural Decoding** | MLLM, visual feature space, VINDEX, multimodal decoding | Feature Space / Multimodal Decoding | MLLM의 visual component가 fMRI decoding에 제공하는 feature space를 분석 |
+| 2025 | **BrainROI: Unified Multimodal Brain Decoding via Cross-Subject Soft-ROI Fusion** | soft ROI, cross-subject, captioning, multimodal | ROI-based / Multimodal Decoding | subject 간 ROI 차이를 soft-ROI fusion으로 완화하고 image/caption decoding을 통합 |
+| 2025 | **BrainExplore: Discovering Interpretable Visual Representations with fMRI** | interpretability, visual representation, natural-language explanation | Interpretability / Encoding Analysis | fMRI를 이용해 모델 내부 시각 표현의 의미를 해석 |
+
+---
+
+---
+
+## 📌 Additional Candidates
+
+아래 논문들은 최신 연구 흐름을 따라가기 위한 추가 후보 논문이다. 링크와 코드 저장소는 추후 보강한다.
+
+| 논문 | 추천 위치 | 설명 |
+|---|---|---|
+| **A 7T fMRI Dataset of Synthetic Images for Out-of-Distribution Modeling of Vision** | Datasets / OOD Generalization | NSD와 연결되는 synthetic image 기반 OOD visual encoding/decoding 데이터셋 |
+| **VoxelFormer: Reconstructing Stimuli from fMRI with Masked Autoencoder and Diffusion Model** | MAE / Transformer-based Decoding | Masked Autoencoder와 diffusion model을 활용한 fMRI stimulus reconstruction |
+| **NeuroSwift: Enhancing fMRI-to-Image Reconstruction with Straight-Through Diffusion** | Diffusion-based Reconstruction | Straight-through diffusion 기반 fMRI-to-image reconstruction |
+| **HI-DREAM: High-Resolution Image Reconstruction with Detailed Brain Visual Decoding** | High-Resolution Reconstruction | 세밀한 시각 정보를 반영하는 고해상도 brain visual decoding |
+| **MoRE-Brain: Multi-object Region Enhanced Brain Visual Decoding** | Object-centric Decoding | 여러 객체 및 영역 정보를 강화한 brain visual decoding |
+| **TROI: Text-Guided Reconstruction of Visual Stimuli from Human Brain Activity** | Text-Guided Decoding | 텍스트 정보를 활용한 visual stimulus reconstruction |
+| **LaVCa: Linear Visual Concept Modeling of fMRI Responses** | Concept-based Encoding / Decoding | fMRI response를 시각 개념 단위로 모델링 |
+| **SEED: Toward Efficient Image Reconstruction from fMRI via Structure-enhanced Denoising Diffusion** | Efficient Diffusion Decoding | 구조 정보를 강화한 denoising diffusion 기반 효율적 이미지 재구성 |
+| **MindLLM: A Subject-Agnostic and Training-Free Framework for fMRI-to-Text Decoding** | Brain-to-Text / LLM-based Decoding | subject-agnostic, training-free fMRI-to-text decoding |
+| **BrainChat: Decoding fMRI Brain Activity into Images and Text using Multimodal Transformers** | Brain-to-Image-and-Text | multimodal transformer 기반 image/text decoding |
+| **BRAINGUARD: Distilling Integrated Features for Robust Brain Decoding** | Robust Decoding | robust brain decoding을 위한 feature distillation |
+| **BOLDreams: Generative fMRI-to-Image Synthesis through Activation Guidance** | Generative Reconstruction | activation guidance 기반 fMRI-to-image synthesis |
+| **Scaling Laws for Neural Representation in fMRI Image Reconstruction** | Scaling Laws | fMRI image reconstruction에서 model/data scaling law 분석 |
+| **SynBrain: Artificial Visual Cortex Enables Image Reconstruction from Brain Activity** | Artificial Visual Cortex / Model-based Decoding | artificial visual cortex를 활용한 brain activity image reconstruction |
+| **Rest2Visual: Reconstruction of Natural Visual Perception from Resting-State fMRI** | Resting-State to Visual Decoding | resting-state fMRI에서 natural visual perception을 재구성하려는 연구 |
 
 ---
 
